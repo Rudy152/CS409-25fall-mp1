@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechVision - Innovative Technology Company</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- 粘性导航栏 -->
+        <nav id="navbar" class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-brand">
+                    <h2>TechVision</h2>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="#hero" class="navbar-link active">Home</a></li>
+                    <li><a href="#about" class="navbar-link">About</a></li>
+                    <li><a href="#services" class="navbar-link">Services</a></li>
+                    <li><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+                    <li><a href="#team" class="navbar-link">Team</a></li>
+                    <li><a href="#contact" class="navbar-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to TechVision</h1>
+                <p class="hero-subtitle">Innovative Technology, Shaping the Future</p>
+                <button class="cta-button" data-modal="hero-modal">Learn More</button>
+            </div>
+        </section>
+
+        <!-- 关于我们 Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>TechVision is a company focused on innovative technology solutions. We are committed to providing excellent services to our clients through advanced technology.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-project-diagram"></i>
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-award"></i>
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Awards Won</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/logo.webp" alt="About Us">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务 Section (多列布局) -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Professional frontend and backend development services to create modern websites and applications for you.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Apps</h3>
+                        <p>Native iOS and Android app development, as well as cross-platform solutions.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Services</h3>
+                        <p>Cloud infrastructure deployment and management to help enterprises achieve digital transformation.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analytics</h3>
+                        <p>Big data analysis and business intelligence solutions.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Comprehensive cybersecurity solutions to protect your digital assets.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-robot"></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>AI and machine learning solutions to help enterprises achieve intelligent upgrades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品集 Section (轮播图) -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">Our Portfolio</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-slide active">
+                            <img src="assets/e commerce.webp" alt="Project 1">
+                            <div class="slide-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Full-featured e-commerce platform developed for large retailers</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/mobile banking.webp" alt="Project 2">
+                            <div class="slide-content">
+                                <h3>Mobile Banking App</h3>
+                                <p>Secure and convenient mobile banking solution</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/Smart logistics.webp" alt="Project 3">
+                            <div class="slide-content">
+                                <h3>Smart Logistics System</h3>
+                                <p>AI-based intelligent logistics management platform</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 背景图片 Section -->
+        <section id="parallax" class="parallax-section">
+            <div class="parallax-content">
+                <h2>Innovation Never Stops</h2>
+                <p>Explore the infinite possibilities of technology with us</p>
+            </div>
+        </section>
+
+        <!-- 团队 Section -->
+        <section id="team" class="team-section">
+            <div class="container">
+                <h2 class="section-title">Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="assets/John.png" alt="John Smith">
+                        </div>
+                        <h3>John Smith</h3>
+                        <p class="member-role">Chief Executive Officer</p>
+                        <p class="member-bio">15 years of experience in the technology industry</p>
+                        <button class="member-btn" data-modal="member-modal-1">View Details</button>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="assets/Emily.png" alt="Emily Johnson">
+                        </div>
+                        <h3>Emily Johnson</h3>
+                        <p class="member-role">Chief Technology Officer</p>
+                        <p class="member-bio">Full-stack development expert</p>
+                        <button class="member-btn" data-modal="member-modal-2">View Details</button>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="assets/Machel.png" alt="Michael Brown">
+                        </div>
+                        <h3>Michael Brown</h3>
+                        <p class="member-role">Design Director</p>
+                        <p class="member-bio">UI/UX design expert</p>
+                        <button class="member-btn" data-modal="member-modal-3">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 视频 Section -->
+        <section id="video" class="video-section">
+            <div class="container">
+                <h2 class="section-title">Company Introduction Video</h2>
+                <div class="video-container">
+                    <video controls poster="assets/logo.webp">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support video playback.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Innovation Building, Tech Park, Chaoyang District, Beijing</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+86 010-12345678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@techvision.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>TechVision</h3>
+                        <p>Innovative Technology, Shaping the Future</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#team">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">Cloud Services</a></li>
+                            <li><a href="#">Data Analytics</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact Info</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Tech Park, Chaoyang District, Beijing</p>
+                        <p><i class="fas fa-phone"></i> +86 010-12345678</p>
+                        <p><i class="fas fa-envelope"></i> info@techvision.com</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 TechVision. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 模态窗口 -->
+        <div id="hero-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <h2>About TechVision</h2>
+                <p>Founded in 2010, TechVision is a leading company focused on innovative technology solutions. Our mission is to help enterprises achieve digital transformation through advanced technology, improving efficiency and competitiveness.</p>
+                <p>Our core values include innovation, quality, integrity, and customer first. Over the years, we have provided quality services to more than 500 companies worldwide.</p>
+            </div>
+        </div>
+
+        <div id="member-modal-1" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <h2>John Smith - Chief Executive Officer</h2>
+                <p>John holds a Master's degree in Computer Science and has over 15 years of rich experience in the technology industry. He has held senior management positions at several well-known technology companies.</p>
+            </div>
+        </div>
+
+        <div id="member-modal-2" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <h2>Emily Johnson - Chief Technology Officer</h2>
+                <p>Emily is a full-stack development expert, proficient in multiple programming languages and frameworks. She has deep technical expertise in cloud computing, artificial intelligence, and big data analytics.</p>
+            </div>
+        </div>
+
+        <div id="member-modal-3" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <h2>Michael Brown - Design Director</h2>
+                <p>Michael is a UI/UX design expert with rich user experience design experience. He is committed to creating intuitive, beautiful, and practical user interfaces.</p>
+            </div>
+        </div>
+    </body>
+</html>
